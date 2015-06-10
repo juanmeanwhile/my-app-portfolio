@@ -1,0 +1,95 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:background="@color/main_bk"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+        <TextView android:text="@string/main_hello"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/default_margin"
+            android:textSize="26sp"
+            android:textColor="@android:color/black"/>
+        
+        <Button
+            android:id="@+id/spotify_button"
+            android:layout_width="@dimen/main_button_width"
+            android:layout_height="@dimen/main_button_height"
+            android:layout_margin="@dimen/main_button_margin"
+            android:onClick="onPortfolioButtonClick"
+            android:text="@string/spotify_button"
+            android:textAllCaps="true"
+            android:tag="spotify"
+            android:backgroundTint="@color/portfolio_button"/>
+
+        <Button
+            android:id="@+id/scores_button"
+            android:layout_width="@dimen/main_button_width"
+            android:layout_height="@dimen/main_button_height"
+            android:layout_margin="@dimen/main_button_margin"
+            android:onClick="onPortfolioButtonClick"
+            android:text="@string/scores_button"
+            android:textAllCaps="true"
+            android:tag="Scores"
+            android:backgroundTint="@color/portfolio_button"/>
+
+        <Button
+            android:id="@+id/library_button"
+            android:layout_width="@dimen/main_button_width"
+            android:layout_height="@dimen/main_button_height"
+            android:layout_margin="@dimen/main_button_margin"
+            android:onClick="onPortfolioButtonClick"
+            android:text="@string/library_button"
+            android:textAllCaps="true"
+            android:tag="Library"
+            android:backgroundTint="@color/portfolio_button"/>
+
+        <Button
+            android:id="@+id/buildit_button"
+            android:layout_width="@dimen/main_button_width"
+            android:layout_height="@dimen/main_button_height"
+            android:layout_margin="@dimen/main_button_margin"
+            android:onClick="onPortfolioButtonClick"
+            android:text="@string/buildit_button"
+            android:textAllCaps="true"
+            android:tag="buildit"
+            android:backgroundTint="@color/portfolio_button"/>
+
+        <Button
+            android:id="@+id/xyz_button"
+            android:layout_width="@dimen/main_button_width"
+            android:layout_height="@dimen/main_button_height"
+            android:layout_margin="@dimen/main_button_margin"
+            android:onClick="onPortfolioButtonClick"
+            android:text="@string/xyz_button"
+            android:textAllCaps="true"
+            android:tag="xyz"
+            android:backgroundTint="@color/portfolio_button"/>
+
+        <Button
+            android:id="@+id/capstone_button"
+            android:layout_width="@dimen/main_button_width"
+            android:layout_height="@dimen/main_button_height"
+            android:layout_margin="@dimen/main_button_margin"
+            android:onClick="onPortfolioButtonClick"
+            android:text="@string/capstone_button"
+            android:textAllCaps="true"
+            android:tag="capstone"
+            android:backgroundTint="@color/portfolio_special_button"
+            android:textColor="@android:color/white"/>
+
+
+
+
+
+    </LinearLayout>
+
+</ScrollView>

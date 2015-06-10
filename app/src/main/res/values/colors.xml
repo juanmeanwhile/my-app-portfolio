@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="portfolio_button">#F08C35</color>
+    <color name="portfolio_special_button">#ff0000</color>
+    <color name="main_bk">#DFEAF1</color>
+</resources>
